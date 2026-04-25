@@ -12,7 +12,8 @@ public class Main {
         System.out.print("Entrez le nom de votre héros : ");
         String nomJoueur = scanner.nextLine();
         
-        System.out.println("\nChoisissez votre classe (1: Guerrier, 2: Mage, 3: Voleur) :");
+        System.out.println("\nChoisissez votre classe\n 1: Guerrier\n 2: Mage\n 3: Voleur ");
+        System.out.print("saisissez votre choix ici: ");
         int choix = scanner.nextInt();
         
         Personnage joueur = null;
